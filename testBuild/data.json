@@ -1,0 +1,123 @@
+{
+    "resourceType":"Bundle",
+        "id": "d96053a1-e925-4fff-b608-8e7cfcfefa46",
+        "meta":
+        {
+            "lastUpdated": "2016-03-03T18:59:37.0942684Z"
+        },
+        "type": "searchset",
+        "total": "2",
+        "link":
+        [{
+            "relation": "self",
+            "url": "http://nprogram.azurewebsites.net/Patient/search?family=Bradley&_format=json"
+        }],
+        "entry":
+        [{
+            "resource":
+            [{
+                "resourceType":"Patient",
+                    "text":
+                    {
+                        "status": "generated",
+                        "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Elise A Bradley</p><p>77 Caerfai Bay Road</p><p>TEYNHAM</p><p>ME9 7AN</p><p>Date of birth: 2003-01-23</p></div>"
+                    },
+                    "identifier":
+                    [{
+                        "use": "official",
+                        "type":
+                        {
+                            "coding":
+                            [{
+                                "code": "SSN"
+                            }]
+                        },
+                        "system": "http://hl7.org/fhir/sid/us-ssn",
+                        "value": "5"
+                    }],
+                    "active": "true",
+                    "name":
+                    [{
+                        "use": "official",
+                        "family": "Bradley",
+                        "given": "Elise"
+                    }],
+                    "telecom":
+                    [{
+                        "system": "phone",
+                        "value": "070 8120 4592",
+                        "use": "home"
+                    }],
+                    "gender": "female",
+                    "birthDate": "2003-01-23",
+                    "deceasedBoolean": "false",
+                    "address":
+                    [{
+                        "use": "home",
+                        "text": "77 Caerfai Bay Road, TEYNHAM, ME9 7AN",
+                        "line": "77 Caerfai Bay Road",
+                        "city": "TEYNHAM",
+                        "postalCode": "ME9 7AN"
+                    }],
+                    "careProvider":
+                    {
+                        "reference": "Organization/1"
+                    }
+                
+            }]
+        },
+        {
+            "resource":
+            [{
+                "resourceType":"Patient",
+                    "text":
+                    {
+                        "status": "generated",
+                        "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Erin R Bradley</p><p>83 Wartnaby Road</p><p>ADWALTON</p><p>BD11 8TI</p><p>Date of birth: 1952-12-19</p></div>"
+                    },
+                    "identifier":
+                    [{
+                        "use": "official",
+                        "type":
+                        {
+                            "coding":
+                            [{
+                                "code": "SSN"
+                            }]
+                        },
+                        "system": "http://hl7.org/fhir/sid/us-ssn",
+                        "value": "48"
+                    }],
+                    "active": "true",
+                    "name":
+                    [{
+                        "use": "official",
+                        "family": "Bradley",
+                        "given": "Erin"
+                    }],
+                    "telecom":
+                    [{
+                        "system": "phone",
+                        "value": "079 8599 2039",
+                        "use": "home"
+                    }],
+                    "gender": "female",
+                    "birthDate": "1952-12-19",
+                    "deceasedBoolean": "false",
+                    "address":
+                    [{
+                        "use": "home",
+                        "text": "83 Wartnaby Road, ADWALTON, BD11 8TI",
+                        "line": "83 Wartnaby Road",
+                        "city": "ADWALTON",
+                        "postalCode": "BD11 8TI"
+                    }],
+                    "careProvider":
+                    {
+                        "reference": "Organization/1"
+                    }
+                
+            }]
+        }]
+    
+}
