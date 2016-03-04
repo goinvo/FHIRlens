@@ -41,7 +41,7 @@ console.log( data );
         console.log("Checking Address");
         if (patient.resource[0].hasOwnProperty('address')){
         	console.log('found it');
-        		$( "#Address" ).append('<p>' +patient.resource[0].address[0].line + "<br />" +  patient.resource[0].address[0].city + "<br />" + patient.resource[0].address[0].postalCode + '</p>' );}
+        		$( "#Address" ).append(patient.resource[0].address[0].line + "<br />" +  patient.resource[0].address[0].city + "<br />" + patient.resource[0].address[0].postalCode );}
         	else {
         		console.log('canee find it');
         	$( "#Address" ).append('<p> N/A </p>'); 
